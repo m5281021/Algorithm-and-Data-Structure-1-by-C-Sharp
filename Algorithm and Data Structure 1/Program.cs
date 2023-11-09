@@ -10,7 +10,17 @@ internal class Program
         {
             list.Add(int.Parse(Console.ReadLine()));
         }
-        ALDS1_1_D alds1 = new ALDS1_1_D(n, list);
-        Console.WriteLine(alds1.MaximumProfit());
+        ALDS1_2_D alds1 = new ALDS1_2_D(n, list);
+        alds1.shellSort();
+        List<int> g = alds1.G;
+        Console.WriteLine(g.Count);
+        for(int i = 0; i < g.Count; i++)
+        {
+            Console.Write(g[i]);
+            if (i != g.Count - 1) Console.Write(' ');
+        }
+        Console.WriteLine();
+        Console.WriteLine(alds1.Cnt);
+        list.ForEach(i => Console.WriteLine(i));
     }
 }
