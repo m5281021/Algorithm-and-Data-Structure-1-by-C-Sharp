@@ -5,8 +5,9 @@ internal class Program
     private static void Main(string[] args)
     {
         int n = int.Parse(Console.ReadLine());
-        int[] a = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
-        ALDS1_6_D alds1 = new ALDS1_6_D(a);
-        Console.WriteLine(alds1.MinimumCostSort());
+        int[] preorder = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
+        int[] inorder = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
+        ALDS1_7_D alds1 = new ALDS1_7_D(n, preorder, inorder);
+        alds1.Print();
     }
 }
