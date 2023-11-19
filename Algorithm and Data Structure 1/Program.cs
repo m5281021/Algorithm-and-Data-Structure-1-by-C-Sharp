@@ -4,8 +4,8 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        int m = int.Parse(Console.ReadLine());
-        ALDS1_8_D alds1 = new ALDS1_8_D(m);
+        int n = int.Parse(Console.ReadLine());
+        ALDS1_9_D alds1 = new ALDS1_9_D(n);
         alds1.Print();
     }
 }
