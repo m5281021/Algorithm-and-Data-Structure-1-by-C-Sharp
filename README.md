@@ -11,6 +11,6 @@ This was originally for personal learning, so explanations and comments may be l
 
 ## Addition
 Some problems were also solved in C.  
-These solutions are available in the `[c_version](https://github.com/m5281021/Algorithm-and-Data-Structure-1-by-C)` directory.
+These solutions are available in the `[c_version](https://github.com/m5281021/Algorithm-and-Data-Structure-1-by-C.git)` directory.
 
 Note: As with the C# version, comments and explanations may be limited since this was originally for personal learning.
